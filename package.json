@@ -1,0 +1,30 @@
+{ "name": "p-while-undef",
+  "version": "0.0.0",
+  "description": "Call an async function repeatedly until it returns something other than undefined.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/p-while-undef-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/p-while-undef-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/p-while-undef-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "index.js",
+  "scripts": { "test": "elp && nodejs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {},
+  "devDependencies": {
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=24.0.0" }
+}
