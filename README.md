@@ -20,6 +20,10 @@ This module exports one function:
 
 Returns a promise for the first `func(...args)` result that is not `undefined`.
 
+* ⚠ If `func` always returns `undefined`, this is a busy wait.
+  Make double sure you have a guaranteed exit, maybe a timeout mechanism.
+
+
 
 
 Usage
